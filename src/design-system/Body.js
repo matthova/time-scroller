@@ -8,7 +8,6 @@ const BodyStyle = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px;
 `
 
 export const Body = () => (

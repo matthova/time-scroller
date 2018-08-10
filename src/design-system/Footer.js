@@ -7,7 +7,6 @@ const FooterStyle = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 8px;
 `
 
 export const Footer = () => (

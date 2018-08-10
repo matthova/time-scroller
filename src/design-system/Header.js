@@ -8,7 +8,6 @@ const HeaderStyle = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0 8px;
 `
 
 export const Header = () => (
