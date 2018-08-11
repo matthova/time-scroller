@@ -7,5 +7,5 @@ export const AppWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: red;
+  overflow: hidden;
 `

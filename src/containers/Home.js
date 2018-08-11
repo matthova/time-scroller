@@ -1,12 +1,13 @@
 import React from 'react'
 import { withSiteData } from 'react-static'
 
-import { AppWrapper, Body, Footer, Header } from '../design-system'
+import { AppWrapper, Footer, Header } from '../design-system'
+import TimeScroller from '../components/TimeScroller'
 
 export default withSiteData(() => (
   <AppWrapper>
     <Header />
-    <Body />
+    <TimeScroller />
     <Footer />
   </AppWrapper>
 ))

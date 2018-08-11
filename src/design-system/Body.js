@@ -3,13 +3,13 @@ import styled from 'styled-components'
 
 const BodyStyle = styled.div`
   flex: 1 1 auto;
-  background: hsl(30, 50%, 50%);
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  overflow: auto;
 `
 
-export const Body = () => (
-  <BodyStyle>Body</BodyStyle>
+export const Body = ({ children }) => (
+  <BodyStyle>{children}</BodyStyle>
 )

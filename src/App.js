@@ -6,20 +6,20 @@ import { hot } from 'react-hot-loader'
 import Routes from 'react-static-routes'
 
 injectGlobal`
-  html {
-    height: 100%;
-  }
   body {
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
       'Lucida Grande', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    height: 100%;
     margin: 0;
     padding: 0;
+    font-weight: 700;
   }
-  #root, .content {
+  html, body, #root, .content {
     height: 100%;
+    width: 100%;
+  }
+  #root {
     div {
       height: 100%;
       width: 100%;
